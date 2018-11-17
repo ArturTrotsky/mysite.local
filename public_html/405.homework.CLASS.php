@@ -9,16 +9,18 @@
 Воспользуйтесь методами GET и SET, чтобы получить доступ к свойствам:
 сначала установив значения свойств x и y (с помощью методов SET),
 а после выведя получившиеся значения в браузер (с помощью методов GET).
-*/
+ */
 
-class Primer405
+class My
 {
-    private $name = 'Artur';
-    private $soname = 'T';
+    private $name = 1;
 
-    public function setName($name)
+    public function __construct($name = false)
     {
-        return $this->name = $name;
+        if ($name) {
+            $this->name = $name;
+        }
+
     }
 
     public function getName()
@@ -26,10 +28,17 @@ class Primer405
         return $this->name;
     }
 
+    public function setName($name)
+    {
+        $this->name = $name;
+    }
 }
 
-$method = new Primer405;
+$my1 = new My(3);
+var_dump($my1);
 
-echo $method->getName() . PHP_EOL;
+$my1->setName(100);
+var_dump($my1);
 
-echo $method->setName('Arturchik') . PHP_EOL;
+var_dump($my1->getName());
+

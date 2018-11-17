@@ -9,17 +9,18 @@
 Создайте объект класса Point.
 Установите свойства x и y в значения 5 и 3 у объекта из 3-го пункта.
 Выведите оба свойства объекта из 3-го пункта.
-*/
+ */
 
-class Point {
+class Point
+{
     public $x;
     public $y;
 }
 
-$obj = new Point();
+$point_1 = new Point();
 
-$obj->x = 5;
-$obj->y = 3;
+$point_1->x = 5;
+$point_1->y = 3;
 
-echo $obj->x . PHP_EOL;
-echo $obj->y;
+echo $point_1->x . '<br />';
+echo $point_1->y;

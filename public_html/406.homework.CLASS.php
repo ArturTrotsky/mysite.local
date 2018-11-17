@@ -11,18 +11,28 @@
 Добавьте статический метод, возвращающий свойство counter.
 Создайте 3 объекта и выведите с помощью метода из 3-го пункта значение counter.
 Убедитесь, что оно равно 3.
-*/
+ */
 
 class Point
 {
-    public static $counter = 0;
+    private static $counter = 0;
+    private $firstName = null;
 
-    public static function standart()
+    public function __construct($firstName)
     {
-        return self::$counter++;
+        $this->firstName = $firstName;
+        self::$counter++;
+    }
+
+    public function getCounter()
+    {
+        self::$counter++;
+        return self::$counter;
     }
 }
 
-echo Point::standart();
-echo Point::standart();
-echo Point::standart();
+$point = new Point('Artur');
+$point->getCounter();
+$point->getCounter();
+var_dump($point->getCounter());
+var_dump($point);
