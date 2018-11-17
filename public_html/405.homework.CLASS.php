@@ -20,7 +20,6 @@ class My
         if ($name) {
             $this->name = $name;
         }
-
     }
 
     public function getName()
@@ -41,4 +40,3 @@ $my1->setName(100);
 var_dump($my1);
 
 var_dump($my1->getName());
-

@@ -61,3 +61,67 @@
 [Sat Nov 17 11:55:09.375763 2018] [php7:notice] [pid 31229] [client 127.0.0.1:34958] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function My::__construct(), 0 passed in /home/artur/Dropbox/workspace/mysite.local/public_html/405.homework.CLASS.php on line 34 and exactly 1 expected in /home/artur/Dropbox/workspace/mysite.local/public_html/405.homework.CLASS.php:18\nStack trace:\n#0 /home/artur/Dropbox/workspace/mysite.local/public_html/405.homework.CLASS.php(34): My->__construct()\n#1 {main}\n  thrown in /home/artur/Dropbox/workspace/mysite.local/public_html/405.homework.CLASS.php on line 18, referer: http://mysite.local/
 [Sat Nov 17 11:55:15.079022 2018] [php7:notice] [pid 10364] [client 127.0.0.1:35178] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function My::__construct(), 0 passed in /home/artur/Dropbox/workspace/mysite.local/public_html/405.homework.CLASS.php on line 34 and exactly 1 expected in /home/artur/Dropbox/workspace/mysite.local/public_html/405.homework.CLASS.php:18\nStack trace:\n#0 /home/artur/Dropbox/workspace/mysite.local/public_html/405.homework.CLASS.php(34): My->__construct()\n#1 {main}\n  thrown in /home/artur/Dropbox/workspace/mysite.local/public_html/405.homework.CLASS.php on line 18, referer: http://mysite.local/
 [Sat Nov 17 11:55:15.900224 2018] [php7:notice] [pid 31232] [client 127.0.0.1:35182] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function My::__construct(), 0 passed in /home/artur/Dropbox/workspace/mysite.local/public_html/405.homework.CLASS.php on line 34 and exactly 1 expected in /home/artur/Dropbox/workspace/mysite.local/public_html/405.homework.CLASS.php:18\nStack trace:\n#0 /home/artur/Dropbox/workspace/mysite.local/public_html/405.homework.CLASS.php(34): My->__construct()\n#1 {main}\n  thrown in /home/artur/Dropbox/workspace/mysite.local/public_html/405.homework.CLASS.php on line 18, referer: http://mysite.local/
+[Sat Nov 17 17:44:53.268427 2018] [php7:notice] [pid 31233] [client 127.0.0.1:43798] PHP Notice:  Undefined index: x in /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php on line 44
+[Sat Nov 17 17:44:53.268470 2018] [php7:notice] [pid 31233] [client 127.0.0.1:43798] PHP Stack trace:
+[Sat Nov 17 17:44:53.268491 2018] [php7:notice] [pid 31233] [client 127.0.0.1:43798] PHP   1. {main}() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:0
+[Sat Nov 17 17:44:53.268522 2018] [php7:notice] [pid 31233] [client 127.0.0.1:43798] PHP Notice:  Undefined index: y in /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php on line 45
+[Sat Nov 17 17:44:53.268533 2018] [php7:notice] [pid 31233] [client 127.0.0.1:43798] PHP Stack trace:
+[Sat Nov 17 17:44:53.268544 2018] [php7:notice] [pid 31233] [client 127.0.0.1:43798] PHP   1. {main}() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:0
+[Sat Nov 17 19:02:14.241600 2018] [php7:notice] [pid 31231] [client 127.0.0.1:56706] PHP Warning:  file_put_contents() expects at least 2 parameters, 1 given in /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php on line 43
+[Sat Nov 17 19:02:14.241837 2018] [php7:notice] [pid 31231] [client 127.0.0.1:56706] PHP Stack trace:
+[Sat Nov 17 19:02:14.241852 2018] [php7:notice] [pid 31231] [client 127.0.0.1:56706] PHP   1. {main}() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:0
+[Sat Nov 17 19:02:14.241860 2018] [php7:notice] [pid 31231] [client 127.0.0.1:56706] PHP   2. file_put_contents() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:43
+[Sat Nov 17 19:02:14.241876 2018] [php7:notice] [pid 31231] [client 127.0.0.1:56706] PHP Notice:  Undefined index: x in /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php on line 46
+[Sat Nov 17 19:02:14.241882 2018] [php7:notice] [pid 31231] [client 127.0.0.1:56706] PHP Stack trace:
+[Sat Nov 17 19:02:14.241888 2018] [php7:notice] [pid 31231] [client 127.0.0.1:56706] PHP   1. {main}() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:0
+[Sat Nov 17 19:02:14.241903 2018] [php7:notice] [pid 31231] [client 127.0.0.1:56706] PHP Notice:  Undefined index: y in /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php on line 47
+[Sat Nov 17 19:02:14.241910 2018] [php7:notice] [pid 31231] [client 127.0.0.1:56706] PHP Stack trace:
+[Sat Nov 17 19:02:14.241916 2018] [php7:notice] [pid 31231] [client 127.0.0.1:56706] PHP   1. {main}() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:0
+[Sat Nov 17 19:02:18.174228 2018] [php7:notice] [pid 31231] [client 127.0.0.1:56706] PHP Warning:  file_put_contents() expects at least 2 parameters, 1 given in /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php on line 43
+[Sat Nov 17 19:02:18.174250 2018] [php7:notice] [pid 31231] [client 127.0.0.1:56706] PHP Stack trace:
+[Sat Nov 17 19:02:18.174259 2018] [php7:notice] [pid 31231] [client 127.0.0.1:56706] PHP   1. {main}() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:0
+[Sat Nov 17 19:02:18.174278 2018] [php7:notice] [pid 31231] [client 127.0.0.1:56706] PHP   2. file_put_contents() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:43
+[Sat Nov 17 19:02:18.174289 2018] [php7:notice] [pid 31231] [client 127.0.0.1:56706] PHP Notice:  Undefined index: x in /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php on line 46
+[Sat Nov 17 19:02:18.174294 2018] [php7:notice] [pid 31231] [client 127.0.0.1:56706] PHP Stack trace:
+[Sat Nov 17 19:02:18.174299 2018] [php7:notice] [pid 31231] [client 127.0.0.1:56706] PHP   1. {main}() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:0
+[Sat Nov 17 19:02:18.174304 2018] [php7:notice] [pid 31231] [client 127.0.0.1:56706] PHP Notice:  Undefined index: y in /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php on line 47
+[Sat Nov 17 19:02:18.174308 2018] [php7:notice] [pid 31231] [client 127.0.0.1:56706] PHP Stack trace:
+[Sat Nov 17 19:02:18.174313 2018] [php7:notice] [pid 31231] [client 127.0.0.1:56706] PHP   1. {main}() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:0
+[Sat Nov 17 19:03:00.092604 2018] [php7:notice] [pid 31230] [client 127.0.0.1:57796] PHP Warning:  file_put_contents() expects at least 2 parameters, 1 given in /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php on line 44
+[Sat Nov 17 19:03:00.092635 2018] [php7:notice] [pid 31230] [client 127.0.0.1:57796] PHP Stack trace:
+[Sat Nov 17 19:03:00.092646 2018] [php7:notice] [pid 31230] [client 127.0.0.1:57796] PHP   1. {main}() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:0
+[Sat Nov 17 19:03:00.092654 2018] [php7:notice] [pid 31230] [client 127.0.0.1:57796] PHP   2. file_put_contents() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:44
+[Sat Nov 17 19:03:00.092673 2018] [php7:notice] [pid 31230] [client 127.0.0.1:57796] PHP Notice:  Undefined index: x in /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php on line 47
+[Sat Nov 17 19:03:00.092682 2018] [php7:notice] [pid 31230] [client 127.0.0.1:57796] PHP Stack trace:
+[Sat Nov 17 19:03:00.092689 2018] [php7:notice] [pid 31230] [client 127.0.0.1:57796] PHP   1. {main}() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:0
+[Sat Nov 17 19:03:00.092698 2018] [php7:notice] [pid 31230] [client 127.0.0.1:57796] PHP Notice:  Undefined index: y in /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php on line 48
+[Sat Nov 17 19:03:00.092703 2018] [php7:notice] [pid 31230] [client 127.0.0.1:57796] PHP Stack trace:
+[Sat Nov 17 19:03:00.092709 2018] [php7:notice] [pid 31230] [client 127.0.0.1:57796] PHP   1. {main}() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:0
+[Sat Nov 17 19:03:03.190081 2018] [php7:notice] [pid 31230] [client 127.0.0.1:57796] PHP Warning:  file_put_contents() expects at least 2 parameters, 1 given in /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php on line 44
+[Sat Nov 17 19:03:03.190158 2018] [php7:notice] [pid 31230] [client 127.0.0.1:57796] PHP Stack trace:
+[Sat Nov 17 19:03:03.190196 2018] [php7:notice] [pid 31230] [client 127.0.0.1:57796] PHP   1. {main}() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:0
+[Sat Nov 17 19:03:03.190229 2018] [php7:notice] [pid 31230] [client 127.0.0.1:57796] PHP   2. file_put_contents() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:44
+[Sat Nov 17 19:03:03.190276 2018] [php7:notice] [pid 31230] [client 127.0.0.1:57796] PHP Notice:  Undefined index: x in /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php on line 47
+[Sat Nov 17 19:03:03.190302 2018] [php7:notice] [pid 31230] [client 127.0.0.1:57796] PHP Stack trace:
+[Sat Nov 17 19:03:03.190326 2018] [php7:notice] [pid 31230] [client 127.0.0.1:57796] PHP   1. {main}() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:0
+[Sat Nov 17 19:03:03.190388 2018] [php7:notice] [pid 31230] [client 127.0.0.1:57796] PHP Notice:  Undefined index: y in /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php on line 48
+[Sat Nov 17 19:03:03.190412 2018] [php7:notice] [pid 31230] [client 127.0.0.1:57796] PHP Stack trace:
+[Sat Nov 17 19:03:03.190439 2018] [php7:notice] [pid 31230] [client 127.0.0.1:57796] PHP   1. {main}() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:0
+[Sat Nov 17 19:03:50.626069 2018] [php7:notice] [pid 31233] [client 127.0.0.1:58988] PHP Notice:  Undefined index: x in /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php on line 47
+[Sat Nov 17 19:03:50.626100 2018] [php7:notice] [pid 31233] [client 127.0.0.1:58988] PHP Stack trace:
+[Sat Nov 17 19:03:50.626109 2018] [php7:notice] [pid 31233] [client 127.0.0.1:58988] PHP   1. {main}() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:0
+[Sat Nov 17 19:03:50.626117 2018] [php7:notice] [pid 31233] [client 127.0.0.1:58988] PHP Notice:  Undefined index: y in /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php on line 48
+[Sat Nov 17 19:03:50.626120 2018] [php7:notice] [pid 31233] [client 127.0.0.1:58988] PHP Stack trace:
+[Sat Nov 17 19:03:50.626124 2018] [php7:notice] [pid 31233] [client 127.0.0.1:58988] PHP   1. {main}() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:0
+[Sat Nov 17 19:05:54.070429 2018] [php7:notice] [pid 10364] [client 127.0.0.1:33640] PHP Notice:  Undefined index: x in /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php on line 47
+[Sat Nov 17 19:05:54.070458 2018] [php7:notice] [pid 10364] [client 127.0.0.1:33640] PHP Stack trace:
+[Sat Nov 17 19:05:54.070469 2018] [php7:notice] [pid 10364] [client 127.0.0.1:33640] PHP   1. {main}() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:0
+[Sat Nov 17 19:05:54.070479 2018] [php7:notice] [pid 10364] [client 127.0.0.1:33640] PHP Notice:  Undefined index: y in /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php on line 48
+[Sat Nov 17 19:05:54.070485 2018] [php7:notice] [pid 10364] [client 127.0.0.1:33640] PHP Stack trace:
+[Sat Nov 17 19:05:54.070492 2018] [php7:notice] [pid 10364] [client 127.0.0.1:33640] PHP   1. {main}() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:0
+[Sat Nov 17 20:23:31.495434 2018] [php7:notice] [pid 31229] [client 127.0.0.1:58294] PHP Notice:  Undefined index: Send in /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php on line 46, referer: http://mysite.local/408.homework.CLASS.php
+[Sat Nov 17 20:23:31.495504 2018] [php7:notice] [pid 31229] [client 127.0.0.1:58294] PHP Stack trace:, referer: http://mysite.local/408.homework.CLASS.php
+[Sat Nov 17 20:23:31.495531 2018] [php7:notice] [pid 31229] [client 127.0.0.1:58294] PHP   1. {main}() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:0, referer: http://mysite.local/408.homework.CLASS.php
+[Sat Nov 17 20:29:52.747001 2018] [php7:notice] [pid 31231] [client 127.0.0.1:38994] PHP Notice:  Undefined index: Send1 in /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php on line 47, referer: http://mysite.local/408.homework.CLASS.php
+[Sat Nov 17 20:29:52.747065 2018] [php7:notice] [pid 31231] [client 127.0.0.1:38994] PHP Stack trace:, referer: http://mysite.local/408.homework.CLASS.php
+[Sat Nov 17 20:29:52.747096 2018] [php7:notice] [pid 31231] [client 127.0.0.1:38994] PHP   1. {main}() /home/artur/Dropbox/workspace/mysite.local/public_html/408.homework.CLASS.php:0, referer: http://mysite.local/408.homework.CLASS.php
